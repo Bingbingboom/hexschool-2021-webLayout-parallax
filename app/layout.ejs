@@ -6,19 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp" rel="stylesheet">
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- 自定義 -->
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
-<body>
-  <header class="header">
-    這是 header
+<body style="overflow-x: hidden;">
+  <header class="d-flex justify-content-between align-items-center border-dark px-5 py-2" data-aos="fade-down" data-aos-duration="300">
+    <h1><a href="index.html" class="logo">Fixie</a></h1>
+    <ul class="d-flex">
+      <li><a href="#" class="h3 fw-bold text-primary hover-secondary px-2">Product</a></li>
+      <li><a href="#" class="h3 fw-bold text-primary hover-secondary px-2">Blog</a></li>
+      <li><a href="#" class="h3 fw-bold text-primary hover-secondary pl-2">Contact</a></li>
+    </ul>
   </header>
 
   <%- contents %>
 
-  <footer class="footer">
-    footer
+  <footer class="footer container bg-light px-5 py-2" data-aos="fade-up" data-aos-duration="200" data-aos-delay="700">
+    <div class="d-flex justify-content-between align-items-center">
+      <ul class="d-flex">
+        <li><a href="#" class="lh-base fw-bold text-primary hover-secondary pr-2">Product</a></li>
+        <li><a href="#" class="lh-base fw-bold text-primary hover-secondary px-2">Blog</a></li>
+        <li><a href="#" class="lh-base fw-bold text-primary hover-secondary pl-2">Contact</a></li>
+      </ul>
+      <p class="h4 lh-base text-secondary">© 2020 Fixie. All Rights Reserved.</p>
+      <a href="index.html" class="logo">Fixie</a>
+    </div>
   </footer>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>

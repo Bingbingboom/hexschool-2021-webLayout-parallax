@@ -1,0 +1,126 @@
+// Single Speed, Single Life.
+.intro{
+    padding-top: 216px;
+    padding-bottom: 99px;
+    p{
+        width: 83%;
+    }
+    &-goShop{
+        width: 30%;
+    }
+    &-product{
+        background-image: url(../images/img1.jpg);
+        top: 0;
+        bottom: 0;
+    }
+}
+
+// 
+.variations{
+    &-img{
+        background-image: url(../images/img2.jpg);
+        height: 960px;
+    }
+    &-description{
+        padding: 96px 96px 192px 135px;
+        border-top: 1px solid $dark;
+    }
+    p{
+        width: 570px;
+    }
+    &-link{
+        right: 50%;
+        top: 50%;
+        transform: translateY(-50%) !important;
+        z-index: 1;
+    }
+    &-arrow{
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) !important;
+        z-index: 1;
+        &AOS{
+            left: 100%;
+            top: 50%;
+            transform: translateY(-50%) !important;
+            z-index: 1;
+        }
+    }
+}
+
+// performance
+.performance{
+    &-img{
+        background-image: url(../images/img3.jpg);
+        height: 960px;
+    }
+    &-description{
+        padding: 192px 135px 96px 96px;
+        border-top: 1px solid $dark;
+    }
+    p{
+        width: 570px;
+        align-self: flex-end;
+    }
+    &-link{
+        right: 50%;
+        top: 50%;
+        transform: translateY(-50%) !important;
+        z-index: 1;
+    }
+    &-arrow{
+        left: 50%;
+        top: 50%;
+        transform: translateY(-50%) !important;
+        z-index: 1;
+        &AOS{
+            left: 100%;
+            top: 50%;
+            transform: translateY(-50%) !important;
+            z-index: 1;
+        }
+    }
+}
+
+// 
+.collection{
+    width: 40.8%;
+    margin: 0 auto;
+    h2{
+        line-height: 1.3;
+    }
+}
+
+// 
+.quote{
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 640px;
+    &-block{
+        background-color: #fff;
+        width: 33%;
+        margin-bottom: 77px;
+    }
+}
+
+// 
+.cardList{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card{
+    width: 33%;
+    padding-right: 15px;
+    padding-left: 15px;
+    &-img{
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+    &-title{
+        line-height: 31px;
+    }
+}

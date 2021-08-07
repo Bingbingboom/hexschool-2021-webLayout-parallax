@@ -1,0 +1,19 @@
+.logo{
+    width: 112px;
+    height: 48px;
+    background-image: url(../images/logo-fixie.svg);
+    background-size: cover;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.footer{
+    position: relative;
+    p{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: Roboto, sans-serif;
+    }
+}

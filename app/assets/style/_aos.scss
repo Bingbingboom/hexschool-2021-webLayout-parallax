@@ -1,0 +1,11 @@
+[data-aos="translate-x"] {
+    transition-property: transform; 
+    &.aos-animate {
+        transform: translateX(100px);
+    }
+}[data-aos="translate-nx"] {
+    transition-property: transform; 
+    &.aos-animate {
+        transform: translateX(-100px);
+    }
+}
